@@ -2,7 +2,7 @@
   min-width: 1000px;
 } */
 
-body {
+.body {
   min-width: 400px;
 }
 
@@ -12,7 +12,7 @@ body {
   position: relative;
 }
 
-.matiuke img 
+.matiuke .image 
 {
   background-image: url(https://tblg.k-img.com/images/restaurant/image/rsttop_randomimg_bg_re2.png?1646638805);
   background-repeat: repeat-x;
@@ -31,7 +31,7 @@ body {
 }
 
 
-a {
+.item,.yoyaku,.link,.ittamise,.hozonzumi,.roguin {
   display: flex;
   color: #eee;
   margin-right: 20px;
@@ -40,14 +40,14 @@ a {
 
 
 
-h1 {
+.ninzuu {
   font-size: 20px;
   margin-left: 60px;
 }
 
-.bgi img {
+.background .image {
   width: 100%;
-  height: 450px;
+  height: 470px;
   margin: 0 auto;
   
 }
@@ -65,12 +65,12 @@ h1 {
     height: 450px;
 } */
 
-button {
+.button-hidari,.button-migi {
   background: transparent;
   border: none;
 }
 
-button:hover {
+.button-hidari,.button-migi:hover {
   background: #eee;
 }
 .button1 , .button2 {
@@ -117,7 +117,7 @@ button:hover {
   margin-right: 70px;
 } */
 
-input {
+.input1,.input2,.input3 {
   width: 250px;
   height: 50px;
   border: 1px solid;
@@ -132,14 +132,14 @@ input {
 
 
 
-input:hover {
+.input1,.input2,.input3 :hover {
   border-bottom: solid 2px #ff9600;
   border-left: solid 1px;
   border-top: solid 1px;
   border-right: solid 1px;
 }
 
-button.kensaku {
+.kensaku {
   background-color: #ff9600;
   padding: 16px;
   margin-right: 20px;
@@ -153,20 +153,20 @@ button.kensaku {
 
 /* main */
 
-h2 {
+.aria {
   margin-left: 70px;
   margin-top: 50px;
   margin-bottom: 0;
 }
 
-ul {
+.ul1 {
   /* margin-left: 70px;
   display: flex;
   flex-wrap: wrap; */
   min-width: 1000px;
 }
 
-li {
+.tokyo,.kanagawa,.aiti,.oosaka,.kyoto,.fukuoka {
   list-style-type: none;
   display: flex;
   /* width: calc(100% / 3);
@@ -175,7 +175,7 @@ li {
   box-sizing: border-box; */
 }
 
-li:hover {
+.tokyo,.kanagawa,.aiti,.oosaka,.kyoto,.fukuoka:hover {
   cursor: pointer;
   opacity: .8;
 }
@@ -221,12 +221,12 @@ li:hover {
   display: flex;
 }
 
-dl {
+.touhokutihou,.kantoutihou,.tyubutihou,.kansaitihou,.shikokutihou,.kyuushuutihou {
   width: 400px;
   height: auto;
 }
 
-dt {
+.dttouhoku,.dtkantou,.dttyubu,.dtkansai,.dtshikoku,.dtkyuushuu {
   margin-top: 20px;
   margin-left: 70px;
   font-weight: 800;
