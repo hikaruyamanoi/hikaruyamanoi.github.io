@@ -31,7 +31,7 @@
 }
 
 
-.item,.yoyaku,.link,.ittamise,.hozonzumi,.roguin {
+.item,.yoyaku,.link,.ittaomise,.hozonzumi,.roguin {
   display: flex;
   color: #eee;
   margin-right: 20px;
@@ -118,31 +118,39 @@
 } */
 
 .input1,.input2,.input3 {
+  padding: 0;
   width: 250px;
-  height: 50px;
-  border: 1px solid;
+  height: 53px;
+  border: 1px solid #d8bb93;
   border-radius: 3px;
-  border-color: #d8bb93;
+  outline: none;
 }
 
 .input3 {
-  font-size: 15px;
+  font-weight:900 ;
+  font-size: medium;
 }
+  
+
+ 
+
+ .input1:focus,.input2:focus,.input3:focus {
+  border-bottom: 2px solid #ff9600;
+ }
 
 
 
 
-.input1,.input2,.input3 :hover {
-  border-bottom: solid 2px #ff9600;
-  border-left: solid 1px;
-  border-top: solid 1px;
-  border-right: solid 1px;
-}
-
+ 
 .kensaku {
   background-color: #ff9600;
   padding: 16px;
   margin-right: 20px;
+  border: none;
+}
+.kensakumoji {
+  font-style: oblique;
+  color: #eee;
 }
 
 .kensaku:hover {
@@ -166,7 +174,7 @@
   min-width: 1000px;
 }
 
-.tokyo,.kanagawa,.aiti,.oosaka,.kyoto,.fukuoka {
+.tokyo,.kanagawa,.aiti,.oosaka,.kyouto,.fukuoka {
   list-style-type: none;
   display: flex;
   /* width: calc(100% / 3);
@@ -175,7 +183,7 @@
   box-sizing: border-box; */
 }
 
-.tokyo,.kanagawa,.aiti,.oosaka,.kyoto,.fukuoka:hover {
+.tokyo,.kanagawa,.aiti,.oosaka,.kyouto,.fukuoka:hover {
   cursor: pointer;
   opacity: .8;
 }
@@ -192,7 +200,9 @@
   position: relative;
 }
 
-
+.ultouhoku,.ulkantou,.ultyubu,.ulkansai,.ulshikoku,.ulkyuushuu {
+width: 500px;
+}
 
 
 .tiikitext1 {
@@ -226,7 +236,7 @@
   height: auto;
 }
 
-.dttouhoku,.dtkantou,.dttyubu,.dtkansai,.dtshikoku,.dtkyuushuu {
+.dthokkaidou,.dtkantou,.dttyubu,.dtkansai,.dtshikoku,.dtkyuushuu {
   margin-top: 20px;
   margin-left: 70px;
   font-weight: 800;
@@ -236,7 +246,7 @@
 
 
 
-.touhoku,.kantou,.tyuubu,.kansai,.shikoku,.kyuushuu {
+.touhoku,.kantou,.tyubu,.kansai,.shikoku,.kyuushuu {
   display:flex ;
   color: #06c;
   margin-left: 0;
@@ -248,9 +258,13 @@
   color: #ff9600;
 }
 
+.tiiki1,.tiiki2,.tiiki3,.tiiki4,.tiiki5,.tiiki6,.tiiki7,.tiiki8,.tiiki9,.tiiki10{
+  list-style: none;
+}
+
 .tiiki2,.tiiki3,.tiiki4,.tiiki5,.tiiki6,.tiiki7,.tiiki8,.tiiki9,.tiiki10 {
   margin-left: 10px;
-  
+  /* list-style: none; */
 }
 
 .touhokukantou,.tyuubukansai,.shikokukyuushuu {
@@ -261,3 +275,5 @@
 .ulkantou,.ulkansai,.ulkyuushuu {
   min-width: 500px;
 }
+
+ 
